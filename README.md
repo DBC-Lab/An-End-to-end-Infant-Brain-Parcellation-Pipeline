@@ -1,5 +1,4 @@
 # An-End-to-end-Infant-Brain-Parcellation-Pipeline
-# An-End-to-end-Infant-Brain-Parcellation-Pipeline
 
 ## Model Overview
 
