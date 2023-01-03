@@ -33,10 +33,10 @@ If you would like to test on your own data, please follow below steps:
 
 #### 1. Data preprocessing
 
-The testing data should contain T1w or/and aligned T2w MRIs. The image resolution is uniformly resampled to (1, 1, 1) mm3 with the size of (192, 192, 192), and the conduct correction of intensity inhomogeneity.
+The testing data should contain T1w or/and aligned T2w MRIs, after inhomogeneity correction. The image resolution is uniformly resampled to (1, 1, 1) mm3 with a size of (192, 192, 192).
 
 #### 2. Update testing data name and file address
 
 You need to change the *.json file in ```./Global_ROIs_localization_network/dataset/``` and ```./Local_ROIs_Refinement_network/dataset/``` to indicate your own testing data, and then provide the location of your dataset directory by using --data_dir.
 
-Then you can run the ```./ pipeline.csh``` command to carry out testing.
+Then run the ```./ pipeline.csh``` command for testing.
