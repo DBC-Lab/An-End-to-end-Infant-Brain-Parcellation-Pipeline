@@ -20,7 +20,7 @@ For convenience, we provide a ```pipeline.csh``` by merging two networks for an 
 pip install -r requirements.txt
 ```
 
-## testing 
+## Testing 
 You can use the pre-trained model or test it on demo Infant brain MR images from Infant Brain Imaging Study(IBIS) network we provided or on your own data.
 
 If you would like to test on the demo images in ```./Demo_Images/```, you can directly run the following command:
