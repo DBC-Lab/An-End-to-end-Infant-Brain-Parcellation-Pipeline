@@ -8,9 +8,9 @@ This repository contains the code for an end-to-end infant brain parcellation pi
 
 The code is composed of two network folders: (1) Global_ROIs_localization_network, and (2) Local_ROIs_Refinement_network, and their respective pretrained models are placed in ```./model/``` files in their respective folders.
 
-The Global_ROIs_localization_network is used for 2-channel MR images inputs (T1w+T2w MRIs) and for 146-regions probability maps outputs. The Local_ROIs_Refinement_network uses the 146-regions probability maps produced by Global_ROIs_localization_network, together with 2-channel raw MR images inputs, as 148-channel inputs, and then produces final 146-regions parcellation results.
+The Global_ROIs_localization_network first employs raw MRIs (T1w or/and T2w MRIs) to produce 146 regions probability maps. The Local_ROIs_Refinement_network further uses the 146 regions probability maps, together with raw MRIs, to refine the 146 regions probability maps.
 
-We provided a ```pipeline.csh``` file for merging the testing procedure of two networks to achieve an end-to-end segmentation process.
+For convenience, we provide a ```pipeline.csh``` by merging two networks for an end-to-end parcellation.
 
 
 
