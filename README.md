@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Testing 
-You can use the pre-trained model or test it on demo Infant brain MR images from Infant Brain Imaging Study(IBIS) network we provided or on your own data.
+You can use the pre-trained model or test it on demo images.
 
 If you would like to test on the demo images in ```./Demo_Images/```, you can directly run the following command:
 
@@ -29,11 +29,11 @@ If you would like to test on the demo images in ```./Demo_Images/```, you can di
 ./ pipeline.csh
 ```
 
-If you would like to test on your own data, you need to follow the following steps:
+If you would like to test on your own data, please follow below steps:
 
 #### 1. Data preprocessing
 
-The testing data should contain T1w and T2w MRIs, and they have been aligned to each other. The image resolution is uniformly resampled to (1, 1, 1) with the size of (192, 192, 192), and the conduct correction of intensity inhomogeneity.
+The testing data should contain T1w or/and aligned T2w MRIs. The image resolution is uniformly resampled to (1, 1, 1) mm3 with the size of (192, 192, 192), and the conduct correction of intensity inhomogeneity.
 
 #### 2. Update testing data name and file address
 
