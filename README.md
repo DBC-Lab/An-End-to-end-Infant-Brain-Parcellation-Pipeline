@@ -44,8 +44,6 @@ Then run the ```./ pipeline.csh``` command for testing.
 ## Citation
 
 ```
-Wang L, Sun Y, Lin W, et al. An end-to-end infant brain parcellation pipeline[J]. Intelligent Medicine, 2023.
-
 @article{wang2023end,
   title={An end-to-end infant brain parcellation pipeline},
   author={Wang, Limei and Sun, Yue and Lin, Weili and Li, Gang and Wang, Li},
