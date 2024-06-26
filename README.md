@@ -40,3 +40,16 @@ The testing data should contain T1w or/and aligned T2w MRIs, after inhomogeneity
 You need to change the *.json file in ```./Global_ROIs_localization_network/dataset/``` and ```./Local_ROIs_Refinement_network/dataset/``` to indicate your own testing data, and then provide the location of your dataset directory by using --data_dir.
 
 Then run the ```./ pipeline.csh``` command for testing.
+
+## Citation
+
+、、、
+@article{wang2023end,
+  title={An end-to-end infant brain parcellation pipeline},
+  author={Wang, Limei and Sun, Yue and Lin, Weili and Li, Gang and Wang, Li},
+  journal={Intelligent Medicine},
+  year={2023},
+  publisher={Elsevier}
+}
+、、、
+
