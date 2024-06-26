@@ -43,7 +43,7 @@ Then run the ```./ pipeline.csh``` command for testing.
 
 ## Citation
 
-、、、
+```
 @article{wang2023end,
   title={An end-to-end infant brain parcellation pipeline},
   author={Wang, Limei and Sun, Yue and Lin, Weili and Li, Gang and Wang, Li},
@@ -51,5 +51,5 @@ Then run the ```./ pipeline.csh``` command for testing.
   year={2023},
   publisher={Elsevier}
 }
-、、、
+```
 
